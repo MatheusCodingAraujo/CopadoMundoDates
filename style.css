@@ -6,6 +6,7 @@
 
 header{
     margin-top: 20px;
+    text-align: center;
 }
 
 ul{
@@ -14,10 +15,10 @@ ul{
 
 body {
     background-color: #121214;
-    background-image: url(./assets/bg.svg);
-    background-repeat: no-repeat;
+    background-image: url(./assets/fundo.jpg);
+    background-repeat: round;
     background-position-x: center;
-    background-position-y: -715px;
+    background-position-y: 0px;
     background-size:100%;
 }
 
@@ -47,7 +48,7 @@ header {
     padding: 32px 23px;
     text-align: center;
 
-    background: #1d1d1d;
+    background: #590622;
     border-bottom: 2px solid #f7dd43;
     border-radius: 6px;
     margin-top: 25px;
@@ -64,8 +65,7 @@ header {
     border: 1px solid #746615;
     border-radius: 6px;
 
-    width: fit-content;
-    margin-inline: auto;
+    width: 300px;
     margin-bottom: 53px;
 
     color: #F7DD43;
@@ -123,4 +123,15 @@ div p{
     cursor: pointer;
 
     color: #F7DD43;
+}
+
+header h1{
+    background-color: #590622;
+    color: #f7dd43;
+    width: fit-content;
+    margin-inline: auto;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    border-bottom: 2px solid #f7dd43;
 }

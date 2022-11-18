@@ -18,7 +18,6 @@ function createcard(date,day,games){
   </div>`
 }
 
-let aux
 
 function createcardgroup(grupo){
     aux=grupo

@@ -34,7 +34,7 @@ function clicou(group){
         case 'A' :
         document.querySelector("#app").innerHTML=`
             <div class='voltar' onclick='iniciar()'> Menu</div>
-            ${createcard('20/11', 'domingo', creategame('qatar','13:00','ecuador'))}
+            ${createcard('20/11', 'domingo', creategame('qatar',' 0 - 2 ','ecuador'))}
             ${createcard('21/11', 'segunda', creategame('senegal','13:00','netherlands'))}
             ${createcard('25/11', 'sexta', creategame('qatar','10:00','senegal')+creategame('netherlands','13:00','ecuador'))}
             ${createcard('29/11', 'terça', creategame('ecuador','7:00','senegal')+creategame('netherlands','10:00','qatar'))}

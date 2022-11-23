@@ -55,7 +55,7 @@ function clicou(group){
         document.querySelector("#app").innerHTML=
             `
             <div class='voltar' onclick='iniciar()'> Menu</div>
-            ${createcard('22/11', 'terça', creategame('argentina','7:00','saudi arabia')+creategame('mexico','13:00','poland'))}
+            ${createcard('22/11', 'terça', creategame('argentina','1 - 2','saudi arabia')+creategame('mexico','0 - 0','poland'))}
             ${createcard('26/11', 'sábado', creategame('poland','10:00','saudi arabia')+creategame('argentina','16:00','mexico'))}
             ${createcard('30/11', 'quarta', creategame('poland','13:00','argentina')+creategame('saudi arabia','16:00','mexico'))}
             `
@@ -65,7 +65,7 @@ function clicou(group){
         document.querySelector("#app").innerHTML=
             `
             <div class='voltar' onclick='iniciar()'> Menu</div>
-            ${createcard('22/11', 'terça', creategame('denmark','10:00','tunisia')+creategame('france','16:00','australia'))}
+            ${createcard('22/11', 'terça', creategame('denmark','0 - 0','tunisia')+creategame('france','4 - 1','australia'))}
             ${createcard('26/11', 'sábado', creategame('tunisia','7:00','australia')+creategame('france','13:00','denmark'))}
             ${createcard('30/11', 'quarta', creategame('tunisia','7:00','france')+creategame('australia','10:00','denmark'))}
             `

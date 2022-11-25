@@ -75,7 +75,7 @@ function clicou(group){
         document.querySelector("#app").innerHTML=
             `
             <div class='voltar' onclick='iniciar()'> Menu</div>
-            ${createcard('23/11', 'quarta', creategame('germany','10:00','japan')+creategame('spain','13:00','costa rica'))}
+            ${createcard('23/11', 'quarta', creategame('germany','1 - 2','japan')+creategame('spain','7 - 0','costa rica'))}
             ${createcard('27/11', 'domingo', creategame('japan','7:00','costa rica')+creategame('spain','16:00','germany'))}
             ${createcard('01/12', 'quinta', creategame('japan','13:00','spain')+creategame('costa rica','16:00','germany'))}
             `
@@ -85,7 +85,7 @@ function clicou(group){
         document.querySelector("#app").innerHTML=
             `
             <div class='voltar' onclick='iniciar()'> Menu</div>
-            ${createcard('23/11', 'quarta', creategame('morocco','7:00','croatia')+creategame('belgium','16:00','canada'))}
+            ${createcard('23/11', 'quarta', creategame('morocco','0 - 0','croatia')+creategame('belgium','1 - 0','canada'))}
             ${createcard('27/11', 'domingo', creategame('belgium','10:00','morocco')+creategame('croatia','13:00','canada'))}
             ${createcard('01/12', 'quinta', creategame('croatia','7:00','belgium')+creategame('canada','10:00','morocco'))}
             `
@@ -95,7 +95,7 @@ function clicou(group){
         document.querySelector("#app").innerHTML=
             `
             <div class='voltar' onclick='iniciar()'> Menu</div>
-            ${createcard('24/11', 'quinta', creategame('switzerland','7:00','cameroon')+creategame('brazil','16:00','serbia'))}
+            ${createcard('24/11', 'quinta', creategame('switzerland','1 - 0','cameroon')+creategame('brazil','2 - 0','serbia'))}
             ${createcard('28/11', 'segunda', creategame('cameroon','7:00','serbia')+creategame('brazil','13:00','switzerland'))}
             ${createcard('02/12', 'sexta', creategame('serbia','7:00','switzerland')+creategame('cameroon','16:00','brazil'))}
             `
@@ -105,7 +105,7 @@ function clicou(group){
         document.querySelector("#app").innerHTML=
             `
             <div class='voltar' onclick='iniciar()'> Menu</div>
-            ${createcard('24/11', 'sexta', creategame('uruguay','10:00','south korea')+creategame('portugal','13:00','ghana'))}
+            ${createcard('24/11', 'sexta', creategame('uruguay','0 - 0','south korea')+creategame('portugal','3 - 2','ghana'))}
             ${createcard('28/11', 'segunda', creategame('south korea','10:00','ghana')+creategame('portugal','16:00','uruguay'))}
             ${createcard('02/12', 'sexta', creategame('south korea','7:00','portugal')+creategame('ghana','10:00','uruguay'))}
             `

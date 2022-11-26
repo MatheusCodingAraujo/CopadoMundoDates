@@ -36,7 +36,7 @@ function clicou(group){
             <div class='voltar' onclick='iniciar()'> Menu</div>
             ${createcard('20/11', 'domingo', creategame('qatar',' 0 - 2 ','ecuador'))}
             ${createcard('21/11', 'segunda', creategame('senegal','0 - 2','netherlands'))}
-            ${createcard('25/11', 'sexta', creategame('qatar','10:00','senegal')+creategame('netherlands','13:00','ecuador'))}
+            ${createcard('25/11', 'sexta', creategame('qatar','1 - 3','senegal')+creategame('netherlands','1 - 1','ecuador'))}
             ${createcard('29/11', 'terça', creategame('ecuador','7:00','senegal')+creategame('netherlands','10:00','qatar'))}
         `
         break;
@@ -46,7 +46,7 @@ function clicou(group){
             `
             <div class='voltar' onclick='iniciar()'> Menu</div>
             ${createcard('21/11', 'segunda', creategame('england','6 - 2','iran')+creategame('united states','1 - 1','wales'))}
-            ${createcard('25/11', 'sexta', creategame('wales','7:00','iran')+creategame('england','16:00','united states'))}
+            ${createcard('25/11', 'sexta', creategame('wales','0 - 2','iran')+creategame('england','0 - 0','united states'))}
             ${createcard('29/11', 'terça', creategame('iran','13:00','united states')+creategame('wales','16:00','england'))}
             `
         break;
